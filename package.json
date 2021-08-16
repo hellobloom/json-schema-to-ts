@@ -1,8 +1,9 @@
 {
-  "name": "json-schema-to-ts",
+  "name": "@bloomprotocol/json-schema-to-ts",
   "version": "1.6.5-beta.1",
   "description": "Infer typescript types from your JSON schemas!",
-  "main": "lib/index.d.ts",
+  "main": "index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "release": "bash scripts/release.bash",
     "test": "tsc --noEmit && jest --verbose"
